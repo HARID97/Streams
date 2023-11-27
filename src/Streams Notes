@@ -1,0 +1,17 @@
+Stream is not a data structure.
+It does not alter the existing collection/data structure we are operating.
+Stream is a sequence of objects which supports various operations which can be pipelined to produce the desired result.
+There are two types of Operations on Streams : 1)Intermediate Operations 2)Terminal Operations
+
+#Intermediate Operations
+It enables the concept of filtering.
+One stream is filtered by next stream and so on.
+The intermediate methods are: 1)map 2)filter 3)sorted
+
+#Terminal Operations
+They return the final value.
+No more filtering after using terminal operation methods.
+Three terminal operations : 1)collect 2)foreach 3)reduce
+collect method collects the final result
+foreach iterates through each element
+The reduce method is used to reduce the elements of a stream to a single value.
